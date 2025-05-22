@@ -8,7 +8,7 @@ function App() {
 
   const handleSubmit = () => {
     if (answer === '37') {
-      navigate('/success', { state: { fromIndex: true } })
+      navigate('/kejutan-ultah/success', { state: { fromIndex: true } })
     } else {
       alert('Try again!')
     }

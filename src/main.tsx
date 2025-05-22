@@ -9,8 +9,8 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/success" element={<Success />} />
+        <Route path="/kejutan-ultah/" element={<App />} />
+        <Route path="/kejutan-ultah/success" element={<Success />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
